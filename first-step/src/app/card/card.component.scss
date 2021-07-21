@@ -15,4 +15,22 @@
     width: 50px;
     height: auto;
   }
+  button {
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+  }
+  .text {
+    font-size: 1.5rem;
+
+    &.red {
+      color: red;
+    }
+
+    &.blue {
+      color: blue;
+    }
+    &.green {
+      color: green;
+    }
+  }
 }
